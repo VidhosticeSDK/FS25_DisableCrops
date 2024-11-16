@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="92" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+    <author>VidhosticeSDK, Perak</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Disable Crops</en>
+        <de>Verbot Der Kulturpflanzen</de>
+        <pl>Zakaz Upraw</pl>
+        <cz>Zakázané Plodiny</cz>
+    </title>
+
+    <description>
+
+
+<!--
+<en><![CDATA[
+Description: (Briefly describe the mod’s functionality, what it adds/changes.)
+Hotkeys: (Clearly define any hotkeys or actions required to use the script. Keyboard / Mouse and Controller if applicable)
+GitHub link: (Optionally if available. | Permitted for mods developed on open-source platforms.)
+]]></en>
+<de><![CDATA[
+Beschreibung: (Beschreiben Sie kurz die Funktionalität des Mods, was er hinzufügt/ändert.) 
+Tastenkombinationen: (Definieren Sie eindeutig alle Tastenkombinationen oder Aktionen, die zur Verwendung des Skripts erforderlich sind. Tastatur / Maus und Controller, falls zutreffend) 
+GitHub-Link: (Wenn verfügbar - kein Requirement | Erlaubt für Mods, die auf Open-Source-Plattformen entwickelt wurden.)
+]]></de>
+-->
+
+
+        <en><![CDATA[This mod will disable the generation of the specified crops from the "Premium Expansion DLC" (beetroot, carrot, parsnip) on unowned fields. It is suitable for maps with too large fields or fields of different shapes. The restriction is not applied to owned fields.
+
+Activation on:
+- New game - no selected crops will be generated on any unowned fields.
+- game in progress - crops already generated on non-owned fields will remain until the end of the season and contracts may be offered for their harvest. If they are not harvested, the crops will wither and will not be generated the following year.
+]]></en>
+        <de><![CDATA[Diese Mod schaltet die Erzeugung der angegebenen Feldfrüchte aus dem "Premium Expansion DLC" (Rote Bete, Karotte, Pastinaken) auf unbesetzten Feldern ab. Sie ist geeignet für Karten mit zu großen Feldern oder Feldern mit unterschiedlichen Formen. Die Einschränkung wird nicht auf eigene Felder angewendet.
+
+Aktivierung bei:
+- Neues Spiel - es werden keine ausgewählten Feldfrüchte auf unbesetzten Feldern erzeugt.
+- laufendes Spiel - bereits erzeugte Feldfrüchte auf Feldern, die sich nicht im Besitz des Spielers befinden, bleiben bis zum Ende der Saison erhalten und es können Verträge für deren Ernte angeboten werden. Wenn sie nicht geerntet werden, verdorren die Pflanzen und werden im nächsten Jahr nicht mehr erzeugt.
+]]></de>
+        <pl><![CDATA[Ten mod wyłączy generowanie określonych upraw z "Premium Expansion DLC" (burak, marchew, pasternak) na niezajętych polach. Jest odpowiedni dla map ze zbyt dużymi polami lub polami o różnych kształtach. Ograniczenie nie dotyczy pól będących własnością.
+
+Aktywacja na:
+- Nowa gra - żadne wybrane uprawy nie zostaną wygenerowane na żadnych niezajętych polach.
+- trwającej grze - uprawy już wygenerowane na polach niebędących własnością pozostaną do końca sezonu, a kontrakty mogą być oferowane na ich zebranie. Jeśli plony nie zostaną zebrane, uschną i nie zostaną wygenerowane w następnym roku.
+]]></pl>
+        <cz><![CDATA[Tento mod vypne generování určených plodin z "DLC Premium Expansion" (červená řepa, mrkev, pastiňák) na nevlastněných polích. Je vhodný pro mapy, kde jsou příliš velká pole, nebo pole rozmanitých tvarů. Na vlastněná pole se omezení nevstahuje.
+
+Aktivace při:
+- nová hra - nebudou generovány vybrané plodiny na žádném nevlastněném poli.
+- rozehraná hra - již vygenerované plodiny na nevlastněných polích zůstanou do konce sezóny a mohou být nabízeny zakázky na jejich sklizeň. Pokud se nesklidí, plodiny uvadnou a další rok se již generovat nebudou.
+]]></cz>
+    </description>
+
+    <iconFilename>icon_DisableCrops.png</iconFilename>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="DisableCrops.lua" />
+    </extraSourceFiles>
+</modDesc>
